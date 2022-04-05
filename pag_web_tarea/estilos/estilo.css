@@ -1,0 +1,59 @@
+body{
+    padding-top: 50px;
+}
+header{
+    background-image: url(https://th.bing.com/th/id/R.478c590348482b2e100de080b2050bee?rik=KNrFgAmLK%2f7mug&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f06%2ffitness-motivation-16362.jpg&ehk=MVMkEnkXWKkOYI56Jz%2fFHd26n4KoDZcEsnd85%2bkgio8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+h2{
+    color: #333;
+}
+h1{
+    font-weight: 600 !important;
+    color: #f62;
+}
+img{
+    height: 475px;
+}
+
+.navegador{
+    background-color: #111 !important;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    margin-top: -50px;
+}
+.navegador a{
+    color: #f62 !important;
+}
+.pie{
+    background-color: #333;
+}
+.caja{
+    background-color: #111;
+    color: #f62;
+}
+.caja, p{
+    font-weight: 500;
+}
+
+#contenedor_principal{
+    height: 450px;
+    width: 100%;
+}
+#carrusel{
+    background-color: #333;
+}
+#cards{
+    background-color: #111;
+}
+#formulario{
+    border: #111 solid 1px;
+    background-color: #111;
+    color: #f62;
+}
+#form{
+    background-color: #f62;
+}
