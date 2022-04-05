@@ -48,15 +48,15 @@
       <form action="" >
         <div class="container mt-5" id="formulario">
           <div class="form-row p-5">
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-12">
               <label for="">Nombre</label>
               <input type="text" class="form-control" />
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-12">
               <label for="">Apellido</label>
               <input type="text" class="form-control" />
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-12">
               <label for="">DNI</label>
               <input type="number" class="form-control" />
             </div>
@@ -68,23 +68,33 @@
               <label for="">Contraseña</label>
               <input type="password" name="pass" id="pass" class="form-control">
             </div>
-            <div class="form-group col-12 d-flex justify-content-between pt-4">
-              <label for="">Tipo de Plan: </label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">2 días</label>
+            <div class="form-row col-12 pt-4">
+              <div class="form-group col-12">
+                <label for="">Tipo de Plan: </label>
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">3 días</label>
+              <div class="form-group col-3">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">2 días</label>
+                </div>
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                <label class="form-check-label" for="inlineCheckbox3">Pase libre</label>
+              <div class="form-group col-3">
+                <div class="form-check form-check-inline col-4">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">3 días</label>
+                </div>
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                <label class="form-check-label" for="inlineCheckbox3">Cardio</label>
+              <div class="form-group col-4">
+                <div class="form-check form-check-inline col-4">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Pase libre</label>
+                </div>
+              </div>
+              <div class="form-group col-2">
+                <div class="form-check form-check-inline col-4">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                  <label class="form-check-label" for="inlineCheckbox3">Cardio</label>
+                </div>
               </div>
             </div>
             <div class="form-group col-6 text-center pt-5">
